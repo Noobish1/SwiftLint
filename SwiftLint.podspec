@@ -5,6 +5,6 @@ Pod::Spec.new do |s|
   s.homepage       = 'https://github.com/realm/SwiftLint'
   s.license        = { :type => 'MIT', :file => 'LICENSE' }
   s.author         = { 'JP Simard' => 'jp@jpsim.com' }
-  s.source         = { :http => "#{s.homepage}/releases/download/#{s.version}/portable_swiftlint.zip" }
+  s.source         = { :http => "http://github.com/realm/Swiftlint/releases/download/0.16.1/portable_swiftlint.zip" }
   s.preserve_paths = '*'
 end
